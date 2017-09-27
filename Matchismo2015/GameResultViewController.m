@@ -123,6 +123,7 @@
 - (void)awakeFromNib
 {
     [self setup];
+    [super awakeFromNib];
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
